@@ -1,0 +1,17 @@
+
+Need to install jest. for that
+
+npm installl --save-dev jest
+
+for asynchronous fetch calls, need to install 'node-fetch' as node does not have access to window fetch method
+
+for that install
+
+npm install node-fetch
+
+to run js files: type: node <filename>
+eg: node script.js
+node script2.js
+
+and to run test: type  - npm test (watch has been applied in package.json test command to watch all changes in js files)
+npm test - will automatically execute all files that has test.js or spec.js extensions

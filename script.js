@@ -14,6 +14,6 @@ const googleSearch = (searchString, db) => {
     return result.length >= 2 ? result.slice(0,2) : result; 
 }
 
-//console.log(googleSearch('cat', googleDatabase));
+console.log(googleSearch('cat', googleDatabase));
 
 module.exports = googleSearch;
